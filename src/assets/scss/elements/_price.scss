@@ -76,15 +76,15 @@
             margin-bottom: 7px;
             display: block;
 
-            &::before {
-                position: absolute;
-                top: 0;
-                left: 0;
-                content: "\f00c";
-                font-family: $fa;
-                font-weight: 400;
-                color: $theme-color;
-            }
+            // &::before {
+            //     position: absolute;
+            //     top: 0;
+            //     left: 0;
+            //     content: "\f00c";
+            //     font-family: $fa;
+            //     font-weight: 400;
+            //     color: $theme-color;
+            // }
         }
     }
 
