@@ -11,6 +11,7 @@ const pricingData = [
         plan: 'Basic Plan',
         type: 'Monthly',
         btnText: 'Get Your Plan Done',
+        btnLink: '/contact',
         status: '',
         features: [
             <li>
@@ -40,6 +41,7 @@ const pricingData = [
         plan: 'Basic Plan',
         type: 'Monthly',
         btnText: 'Get Your Plan Done',
+        btnLink: '/contact',
         status: 'active',
 
         features: [
@@ -78,6 +80,7 @@ const pricingData = [
         plan: 'Basic Plan',
         type: 'Monthly',
         btnText: 'Get Your Plan Done',
+        btnLink: '/contact',
         status: '',
 
         features: [

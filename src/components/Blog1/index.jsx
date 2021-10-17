@@ -19,6 +19,7 @@ function Blog1() {
                 <div className="row">
                     {blogOneData.map((data) => (
                         <BlogOneItem
+                            key={data.id}
                             thumb={data.thumbnail}
                             date={data.date}
                             month={data.month}

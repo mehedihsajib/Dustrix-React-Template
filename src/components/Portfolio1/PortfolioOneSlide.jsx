@@ -21,7 +21,7 @@ function PortfolioOneSlide({ image, category, client, title, desc, btnText }) {
                         </div>
                         <h2>{title}</h2>
                         <p>{desc}</p>
-                        <Link to="/project-details.html" className="read-btn theme-btn">
+                        <Link to="/project-details" className="read-btn theme-btn">
                             {btnText}
                         </Link>
                     </div>

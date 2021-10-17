@@ -12,7 +12,7 @@ const blogOneData = [
         category: 'Industrial',
         author: 'Miranda H.',
         title: 'The dramatically visualize on customer directed',
-        link: '/blog-details',
+        link: '/news-details',
     },
 
     {
@@ -23,7 +23,7 @@ const blogOneData = [
         category: 'Industrial',
         author: 'Miranda H.',
         title: 'The dramatically visualize on customer directed',
-        link: '/blog-details',
+        link: '/news-details',
     },
 
     {
@@ -34,7 +34,7 @@ const blogOneData = [
         category: 'Industrial',
         author: 'Miranda H.',
         title: 'The dramatically visualize on customer directed',
-        link: '/blog-details',
+        link: '/news-details',
     },
 ];
 

@@ -7,48 +7,50 @@ import Topbar from './Topbar';
 
 function Header1() {
     return (
-        <header className="header-wrap header-1">
-            <Topbar />
-            <div className="container">
-                <div className="row align-items-center">
-                    <div className="col-8 col-lg-3">
-                        <div className="logo">
-                            <Link to="/">
-                                <img src={Logo} alt="logo" />
-                            </Link>
-                        </div>
-                    </div>
-                    <div className="col-4 d-block d-lg-none">
-                        <div className="mobile-nav-wrap">
-                            <MobileMenu />
-                        </div>
-                    </div>
-                    <div className="col-12 d-none d-md-block col-lg-9">
-                        <div className="header-contact-info text-lg-right">
-                            <div className="single-element">
-                                <a href="/">(+1) 555 234-8765</a>
-                                <span>Call Us Now</span>
-                            </div>
-                            <div className="single-element">
-                                <a href="/">info@webexample.com</a>
-                                <span>Mail Us Now</span>
-                            </div>
-                            <div className="header-btn d-inline">
-                                <a href="contact.html" className="theme-btn">
-                                    Get A Quote
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div className="menu-wrapper d-none d-lg-block">
+        <>
+            <header className="header-wrap header-1">
+                <Topbar />
                 <div className="container">
-                    <MainMenu />
+                    <div className="row align-items-center">
+                        <div className="col-8 col-lg-3">
+                            <div className="logo">
+                                <Link to="/">
+                                    <img src={Logo} alt="logo" />
+                                </Link>
+                            </div>
+                        </div>
+                        <div className="col-4 d-block d-lg-none">
+                            <div className="mobile-nav-wrap">
+                                <MobileMenu />
+                            </div>
+                        </div>
+                        <div className="col-12 d-none d-md-block col-lg-9">
+                            <div className="header-contact-info text-lg-right">
+                                <div className="single-element">
+                                    <a href="/">(+1) 555 234-8765</a>
+                                    <span>Call Us Now</span>
+                                </div>
+                                <div className="single-element">
+                                    <a href="/">info@webexample.com</a>
+                                    <span>Mail Us Now</span>
+                                </div>
+                                <div className="header-btn d-inline">
+                                    <Link to="/contact" className="theme-btn">
+                                        Get A Quote
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </header>
+
+                <div className="menu-wrapper d-none d-lg-block">
+                    <div className="container">
+                        <MainMenu />
+                    </div>
+                </div>
+            </header>
+        </>
     );
 }
 

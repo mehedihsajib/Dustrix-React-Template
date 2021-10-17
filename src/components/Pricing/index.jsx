@@ -26,6 +26,7 @@ function Pricing() {
                             plan={data.plan}
                             type={data.plan}
                             btnText={data.btnText}
+                            link={data.btnLink}
                             status={data.status}
                             features={data.features}
                         />

@@ -5,6 +5,17 @@
         position: relative;
         z-index: 1;
     }
+
+    .scroll-up-btn {
+        text-align: end;
+    }
+
+    .copyright-info {
+        @media (max-width: 991px) {
+            text-align: center;
+        }
+    }
+
     .footer-bottom {
         background-color: $theme-dark;
         z-index: 1;
@@ -27,7 +38,7 @@
             line-height: 120px;
             text-align: center;
             display: inline-block;
-            top: -73px;
+            bottom: 0;
             z-index: 22;
             left: 50%;
             transform: translateX(-50%);

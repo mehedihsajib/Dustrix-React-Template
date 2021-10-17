@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.min.css';
 import HeroBg1 from '../../assets/img/home1/hero1.jpg';
@@ -17,12 +18,12 @@ function Hero1() {
                                 <div className="col-12 col-lg-8 col-xl-6">
                                     <div className="hero-contents">
                                         <h1>Global Automotive</h1>
-                                        <a href="services.html" className="theme-btn">
+                                        <Link to="/services" className="theme-btn">
                                             Our Services <i className="fal fa-long-arrow-right" />
-                                        </a>
-                                        <a href="about.html" className="theme-btn black">
+                                        </Link>
+                                        <Link to="/about" className="theme-btn black">
                                             learn more
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
