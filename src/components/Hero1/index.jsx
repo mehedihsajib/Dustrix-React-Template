@@ -1,4 +1,5 @@
 import React from 'react';
+import { BsArrowRight } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.min.css';
@@ -19,7 +20,8 @@ function Hero1() {
                                     <div className="hero-contents">
                                         <h1>Global Automotive</h1>
                                         <Link to="/services" className="theme-btn">
-                                            Our Services <i className="fal fa-long-arrow-right" />
+                                            Our Services{' '}
+                                            <BsArrowRight style={{ marginLeft: '10px' }} />
                                         </Link>
                                         <Link to="/about" className="theme-btn black">
                                             learn more

@@ -543,8 +543,7 @@
         z-index: 2;
         position: absolute;
         bottom: 60px;
-        right: 0;
-        transform: translateX(50%);
+        right: -85px;
 
         @media (max-width: 585px) {
             transform: translateX(20%);
