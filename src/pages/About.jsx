@@ -7,6 +7,7 @@ import Header1 from '../components/Header1';
 import PageBanner from '../components/PageBanner';
 import SkillSet from '../components/SkillSet';
 import Sponsors from '../components/Sponsors';
+import Timeline from '../components/Timeline';
 
 function About() {
     return (
@@ -17,6 +18,7 @@ function About() {
             <Approch />
             <SkillSet />
             <Sponsors />
+            <Timeline />
             <Footer1 />
         </>
     );

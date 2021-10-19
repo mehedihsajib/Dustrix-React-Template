@@ -546,7 +546,11 @@
         right: -85px;
 
         @media (max-width: 585px) {
-            transform: translateX(20%);
+            transform: translateX(-15%);
+            -webkit-transform: translateX(-15%);
+            -moz-transform: translateX(-15%);
+            -ms-transform: translateX(-15%);
+            -o-transform: translateX(-15%);
         }
     }
 
