@@ -9,7 +9,7 @@ import Home2 from './pages/Home2';
 import Home3 from './pages/Home3';
 import News from './pages/News';
 import NewsDetails from './pages/NewsDetails';
-import CaseDetails from './pages/ProjectDetails';
+import ProjectDetails from './pages/ProjectDetails';
 import Projects from './pages/Projects';
 import Services from './pages/Services';
 import ServicesDetails from './pages/ServicesDetails';
@@ -45,7 +45,7 @@ function App() {
                         <ServicesDetails />
                     </Route>
                     <Route exact path="/project-details">
-                        <CaseDetails />
+                        <ProjectDetails />
                     </Route>
                     <Route exact path="/news">
                         <News />

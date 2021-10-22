@@ -21,8 +21,8 @@ function AboutFeatured() {
                             >
                                 <div className="video-play-btn">
                                     <Modal
+                                        className="play-video"
                                         modalBtn={<FaPlay />}
-                                        channel="youtube"
                                         videoId="L61p2uyiMSo"
                                     />
                                 </div>
