@@ -24,7 +24,7 @@ function Hero1() {
                                             <BsArrowRight style={{ marginLeft: '10px' }} />
                                         </Link>
                                         <Link to="/about" className="theme-btn black">
-                                            learn more
+                                            Learn more
                                         </Link>
                                     </div>
                                 </div>

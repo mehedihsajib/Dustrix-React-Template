@@ -1,18 +1,25 @@
 import React from 'react';
-import { FaTh } from 'react-icons/fa';
-import { FiSearch } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
+import logo from '../../assets/img/logo-3.png';
+import MobileMenu from '../MobileMenu';
 
-function MainMenu({ hanldeOffset }) {
+function MainMenu3() {
     return (
-        <>
-            <div className="main-menu-area">
-                <div className="row align-center">
-                    <div className="col-6 col-md-8 col-lg-10">
+        <header className="header-wrap header-3">
+            <div className="container">
+                <div className="row align-items-center justify-content-between">
+                    <div className="col-lg-2 col-5 col-md-4">
+                        <div className="logo">
+                            <Link to="/home-3">
+                                <img src={logo} alt="logo" />
+                            </Link>
+                        </div>
+                    </div>
+                    <div className="col-lg-7 pl-lg-3 header-none">
                         <div className="main-menu">
                             <ul>
                                 <li>
-                                    <Link to="/">Home</Link>
+                                    <Link to="/home-3">Home</Link>
                                     <ul className="sub-menu">
                                         <li>
                                             <Link to="/">home 1</Link>
@@ -29,7 +36,7 @@ function MainMenu({ hanldeOffset }) {
                                     <Link to="/about">About</Link>
                                 </li>
                                 <li>
-                                    <Link to="/">Pages</Link>
+                                    <Link to="//">Pages</Link>
                                     <ul className="sub-menu">
                                         <li>
                                             <Link to="/team">team</Link>
@@ -54,20 +61,19 @@ function MainMenu({ hanldeOffset }) {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-6 col-md-8 col-lg-2 icon-wrapper">
-                        <div className="search-btn">
-                            <i>
-                                <FiSearch />
-                            </i>
-                        </div>
-                        <div className="side-menu-toggle">
-                            <FaTh onClick={hanldeOffset} />
+                    <div className="col-lg-4 col-xl-3 col-6 col-md-5 text-right d-in-flex align-items-center">
+                        <Link to="/contact" className="theme-btn theme-3">
+                            Get A Quote
+                        </Link>
+
+                        <div className="col mobile-menu-bar">
+                            <MobileMenu />
                         </div>
                     </div>
                 </div>
             </div>
-        </>
+        </header>
     );
 }
 
-export default MainMenu;
+export default MainMenu3;

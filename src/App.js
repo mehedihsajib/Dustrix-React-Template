@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import ScrollIndicator from './components/ScrollIndicator';
+import ScrollToTopRoute from './components/ScrollTopRoute';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Faq from './pages/Faq';
@@ -19,6 +20,7 @@ function App() {
     return (
         <>
             <Router>
+                <ScrollToTopRoute />
                 <Switch>
                     <Route exact path="/home-2">
                         <Home2 />

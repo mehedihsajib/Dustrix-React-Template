@@ -5,7 +5,7 @@ import SkillBar from './SkillBar';
 
 function SkillSet() {
     return (
-        <section className="skill-wrapper section-padding">
+        <section className="skill-wrapper section-padding pt-0">
             <div className="container">
                 <div
                     className="skill-bg pt-100 pb-100 bg-center bg-cover bg-overlay text-white"

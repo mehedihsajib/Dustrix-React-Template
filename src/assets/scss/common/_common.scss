@@ -205,3 +205,49 @@
     }
   }
 }
+// FAQ 2
+.faq-2 {
+  .accordion__button {
+    color: #001248;
+    &:hover {
+      color: #ffc54f;
+    }
+  }
+}
+
+// PLAY BUTTON
+.video-fetaures-wrapper {
+  .video-play-btn {
+    background-color: transparent;
+    margin-top: -50px;
+    margin-left: -50px;
+  }
+}
+
+.brand-wrapper {
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
+
+.team-section-2 {
+  .team-section {
+    padding: 0;
+  }
+}
+
+.video-featured-wrapper {
+  .video-wrapper .video-play-btn button {
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    border-radius: 0;
+    width: 120px;
+    height: 100px;
+    line-height: 100px;
+    background-color: #ffd039;
+    color: #001659;
+  }
+
+  .video-wrapper .video-play-btn {
+    background-color: transparent;
+  }
+}

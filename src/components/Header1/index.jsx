@@ -1,13 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../../assets/img/logo.png';
 import MobileMenu from '../MobileMenu';
+import OffsetMenu from '../OffsetMenu';
 import MainMenu from './MainMenu';
 import Topbar from './Topbar';
 
 function Header1() {
+    const [offset, setOffset] = useState(false);
+    const handleOffset = () => {
+        setOffset(!offset);
+    };
     return (
         <>
+            <OffsetMenu
+                handleOffset={handleOffset}
+                className={offset ? 'offset-menu show' : 'offset-menu'}
+            />
             <header className="header-wrap header-1">
                 <Topbar />
                 <div className="container">
@@ -46,7 +55,7 @@ function Header1() {
 
                 <div className="menu-wrapper d-none d-lg-block">
                     <div className="container">
-                        <MainMenu />
+                        <MainMenu hanldeOffset={handleOffset} />
                     </div>
                 </div>
             </header>
