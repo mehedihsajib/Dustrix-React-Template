@@ -4,7 +4,7 @@ import Blog2 from '../components/Blog2';
 import BrandCarousel from '../components/BrandCarousel';
 import CoreFeature from '../components/CoreFeature';
 import Cta2 from '../components/Cta2';
-import Cta3 from '../components/Cta3.jsx';
+import Cta3 from '../components/Cta3';
 import Footer2 from '../components/Footer2';
 import Header2 from '../components/Header2';
 import Hero2 from '../components/Hero2';

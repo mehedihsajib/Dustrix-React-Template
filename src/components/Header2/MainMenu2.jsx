@@ -29,7 +29,7 @@ function MainMenu2() {
                                 <div className="main-menu">
                                     <ul>
                                         <li>
-                                            <Link to="/">Home</Link>
+                                            <Link to="/home-2">Home</Link>
                                             <ul className="sub-menu">
                                                 <li>
                                                     <Link to="/">home 1</Link>
