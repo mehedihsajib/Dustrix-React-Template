@@ -14,7 +14,12 @@ function WidgetNews({ thumbnail, meta, heading, link }) {
                 />
                 <div className="post-data">
                     <span>
-                        <BiCalendar />
+                        <BiCalendar
+                            style={{
+                                marginBottom: '3px',
+                                marginRight: '3px',
+                            }}
+                        />
                         {meta}
                     </span>
                     <h5>
