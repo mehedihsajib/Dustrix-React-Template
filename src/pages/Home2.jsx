@@ -21,7 +21,6 @@ function Home2() {
             <CoreFeature />
             <ProjectFilter2 />
             <BrandCarousel />
-            {/* <Testimonial /> */}
             <Cta3 />
             <TeamMembers2 />
             <Blog2 />
