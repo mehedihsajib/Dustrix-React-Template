@@ -78,12 +78,14 @@ function MainMenu2() {
                                 <Link to="/home-2" className="serach-btn circle-btn">
                                     <FaSearch />
                                 </Link>
-                                <div
+                                <button
+                                    type="button"
                                     style={{ cursor: 'pointer' }}
                                     className="offcanvas-btn circle-btn"
+                                    onClick={handleOffset}
                                 >
-                                    <FaTh onClick={handleOffset} />
-                                </div>
+                                    <FaTh />
+                                </button>
                             </div>
                             <div className="mobile-menu-wrap align-items-center justify-content-center">
                                 <div className="mobile-nav-wrap">

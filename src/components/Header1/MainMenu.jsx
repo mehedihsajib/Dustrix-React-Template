@@ -55,14 +55,14 @@ function MainMenu({ hanldeOffset }) {
                         </div>
                     </div>
                     <div className="col-6 col-md-8 col-lg-2 icon-wrapper">
-                        <div className="search-btn">
+                        <button type="button" className="search-btn">
                             <i>
                                 <FiSearch />
                             </i>
-                        </div>
-                        <div className="side-menu-toggle">
-                            <FaTh onClick={hanldeOffset} />
-                        </div>
+                        </button>
+                        <button type="button" onClick={hanldeOffset} className="side-menu-toggle">
+                            <FaTh />
+                        </button>
                     </div>
                 </div>
             </div>
